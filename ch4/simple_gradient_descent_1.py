@@ -1,6 +1,3 @@
-def predict(weight, input):
-    return input * weight
-
 
 def run():
     input = 0.5
