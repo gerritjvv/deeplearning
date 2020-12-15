@@ -12,6 +12,7 @@ hp_wgt = np.array([
     [0.0, 1.3, 0.1]  # sad?
 ]).T
 
+
 weights = [ih_wgt, hp_wgt]
 
 

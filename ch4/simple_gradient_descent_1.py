@@ -3,13 +3,24 @@
 #
 import random
 
+
+#                               Weights                   Output
+#    -----
+#  | input 0.5 |  -------------> [ 0.5  ]  -------> [   0.8   ]
+#    -----
+#                      |
+#                  [Environment]
+#
+#    Synapse
+#
+
 def run():
-    input = 0.5
-    goal = 0.8
+    input = 0.2
+    goal = 0.7
     alpha = 0.01
     weight = random.random()
 
-    for i in range(20000):
+    for i in range(40000):
         pred = weight * input
 
         error = (pred - goal) ** 2  # squared error
