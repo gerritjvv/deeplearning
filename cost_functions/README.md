@@ -1,0 +1,1 @@
+https://numpy-ml.readthedocs.io/en/latest/numpy_ml.neural_nets.losses.html
